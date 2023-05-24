@@ -8,19 +8,6 @@ For example, the sequence for n = 3 is as follows
 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 **/
 
-//As a regular function
-// console.log(addSubToOne(3));
-// function addSubToOne(num) {
-//   while (num > 1) {
-//     if(num % 2 == 0)
-//     num /= 2;
-//     else
-//     num = num * 3 + 1;
-//   }
-//   return num;
-// }
-
-//As anonymous function
 const addSubToOne = (num) => {
   while (num > 1) {
     if(num % 2 == 0)
