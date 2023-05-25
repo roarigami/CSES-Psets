@@ -10,12 +10,14 @@ For example, the sequence for n = 3 is as follows
 
 const addSubToOne = (num) => {
     while (num > 1) {
-        if(num % 2 == 0)
+        if(num % 2 == 0) {
             num /= 2;
-        else
+        } else {
             num = num * 3 + 1;
+        }
         console.log(num);
   }
   return num;
 }
+
 console.log(addSubToOne(47));
