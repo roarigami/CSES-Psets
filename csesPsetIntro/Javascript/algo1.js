@@ -1,5 +1,5 @@
 /**
-CSES Problem #1 Weird algorithm
+CSES Intro Problem #1 Weird algorithm
 Question - Consider an algorithm that takes as
 input a positive integer n. If n is even, the algorithm
 divides it by two, and if n is odd, the algorithm multiplies
