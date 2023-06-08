@@ -1,5 +1,5 @@
 """
-CSES Problem Intro Question #1 - Weird algorithm
+CSES Problem Set Intro #1 - Weird algorithm
 Question: Consider an algorithm that takes as
 input a positive integer n. If n is even, the algorithm
 divides it by two, and if n is odd, the algorithm multiplies
@@ -10,12 +10,13 @@ For example, the sequence for n = 3 is as follows
 
 n = int(input())
 
-print(n, end=" ")
+def weirdAlgo(n):
+    while n > 1:
+        print(n)
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = (n * 3) + 1
+    return n
 
-while n != 1:
-    if n % 2 == 0:
-        n = n // 2
-    else:
-        n = (n * 3) + 1
-
-    print(n, end=" ")
+print(weirdAlgo(n))
