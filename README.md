@@ -1,4 +1,4 @@
-# CSES-Psets
+## CSES-Psets
 CSES problem set solutions. 
 CSES does not accept submission for vanilla javascript.
 All solutions in vanilla js can only be used and tested locally, but not submitted. They will fail the tests.
